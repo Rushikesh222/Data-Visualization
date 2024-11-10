@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Chart from "react-apexcharts";
-import { useSelector } from "react-redux";
+import { useSelector } from "react-redux ";
 
 export const Graph = () => {
   const [lineChartValue, setLineChartValue] = useState();
